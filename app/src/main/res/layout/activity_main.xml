@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:paddingTop="30dp"
+    android:paddingStart="20dp"
+    >
+    <TextView
+        android:id="@+id/tvN1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero 1"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/etN1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="50dp"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/tvN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero 2"
+        android:textSize="20sp"
+        android:layout_marginTop="80sp" />
+    <EditText
+        android:id="@+id/etN2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80sp"
+        android:layout_marginEnd="50dp"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/tvN3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero 3"
+        android:textSize="20sp"
+        android:layout_marginTop="160sp" />
+    <EditText
+        android:id="@+id/etN3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="160sp"
+        android:layout_marginEnd="50dp"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:onClick="calcularMayor"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp" />
+    <TextView
+        android:id="@+id/tvMayor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero Mayor"
+        android:textSize="20sp"
+        android:layout_marginTop="320sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
